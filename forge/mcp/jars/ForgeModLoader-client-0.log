@@ -1,0 +1,696 @@
+2013-09-08 12:20:53 [INFO] [ForgeModLoader] Forge Mod Loader version 6.2.35.800 for Minecraft 1.6.2 loading
+2013-09-08 12:20:53 [INFO] [ForgeModLoader] Java is Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_51, running on Mac OS X:x86_64:10.8.4, installed at /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Java classpath at launch is /Users/BenG/git/BenzoniteMod/Minecraft/bin:/Users/BenG/Desktop/forge/mcp/jars/libraries/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/net/minecraft/launchwrapper/1.3/launchwrapper-1.3.jar:/Users/BenG/Desktop/forge/mcp/jars/versions/1.6.2/1.6.2.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/argo/argo/2.25_fixed/argo-2.25_fixed.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/com/google/guava/guava/14.0/guava-14.0.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/org/lwjgl/lwjgl/lwjgl/2.9.0/lwjgl-2.9.0.jar:/Users/BenG/Desktop/forge/mcp/jars/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.0/lwjgl_util-2.9.0.jar
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Java library path at launch is /Users/BenG/Desktop/forge/mcp/jars/versions/1.6.2/1.6.2-natives
+2013-09-08 12:20:53 [INFO] [ForgeModLoader] Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Instantiating coremod class FMLCorePlugin
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Loaded coremod FMLCorePlugin
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Instantiating coremod class FMLForgePlugin
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Loaded coremod FMLForgePlugin
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] All fundamental core mods are successfully located
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Discovering coremods
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Examining for coremod candidacy CodeChickenLib-dev-1.6.2-1.0.0.11.jar
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Examining for coremod candidacy CodeChickenCore 0.9.0.2.jar
+2013-09-08 12:20:53 [FINE] [ForgeModLoader] Instantiating coremod class CodeChickenCorePlugin
+2013-09-08 12:20:53 [WARNING] [ForgeModLoader] The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+2013-09-08 12:20:54 [FINE] [ForgeModLoader] Loaded coremod CodeChickenCorePlugin
+2013-09-08 12:20:54 [FINE] [ForgeModLoader] Examining for coremod candidacy NotEnoughItems 1.6.0.6.jar
+2013-09-08 12:20:54 [FINE] [ForgeModLoader] Instantiating coremod class NEICorePlugin
+2013-09-08 12:20:54 [WARNING] [ForgeModLoader] The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+2013-09-08 12:20:54 [FINE] [ForgeModLoader] Loaded coremod NEICorePlugin
+2013-09-08 12:20:54 [FINEST] [ForgeModLoader] Registering transformer cpw.mods.fml.common.asm.transformers.AccessTransformer
+2013-09-08 12:20:54 [INFO] [STDOUT] Loaded 39 rules from AccessTransformer config file fml_at.cfg
+2013-09-08 12:20:54 [FINEST] [ForgeModLoader] Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+2013-09-08 12:20:54 [FINEST] [ForgeModLoader] Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+2013-09-08 12:20:54 [FINEST] [ForgeModLoader] Registering transformer net.minecraftforge.transformers.ForgeAccessTransformer
+2013-09-08 12:20:55 [INFO] [STDOUT] Loaded 107 rules from AccessTransformer config file forge_at.cfg
+2013-09-08 12:20:55 [FINEST] [ForgeModLoader] Registering transformer net.minecraftforge.transformers.EventTransformer
+2013-09-08 12:20:55 [FINEST] [ForgeModLoader] Registering transformer codechicken.lib.asm.ClassHeirachyManager
+2013-09-08 12:20:55 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.CodeChickenAccessTransformer
+2013-09-08 12:20:55 [INFO] [STDOUT] Loaded 39 rules from AccessTransformer config file fml_at.cfg
+2013-09-08 12:20:55 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.InterfaceDependancyTransformer
+2013-09-08 12:20:55 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.TweakTransformer
+2013-09-08 12:20:55 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.FeatureHackTransformer
+2013-09-08 12:20:55 [FINEST] [ForgeModLoader] Registering transformer codechicken.core.asm.DelegatedTransformer
+2013-09-08 12:20:55 [FINEST] [ForgeModLoader] Registering transformer codechicken.nei.asm.NEITransformer
+2013-09-08 12:20:55 [FINE] [ForgeModLoader] Running coremod plugins
+2013-09-08 12:20:55 [FINE] [ForgeModLoader] Running coremod plugin FMLCorePlugin
+2013-09-08 12:20:56 [SEVERE] [ForgeModLoader] The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+2013-09-08 12:20:56 [FINE] [ForgeModLoader] Coremod plugin FMLCorePlugin run successfully
+2013-09-08 12:20:56 [FINE] [ForgeModLoader] Running coremod plugin FMLForgePlugin
+2013-09-08 12:20:56 [FINE] [ForgeModLoader] Coremod plugin FMLForgePlugin run successfully
+2013-09-08 12:20:56 [FINE] [ForgeModLoader] Running coremod plugin CodeChickenCorePlugin
+2013-09-08 12:20:56 [INFO] [STDOUT] Adding AccessTransformer: nei_at.cfg
+2013-09-08 12:20:56 [INFO] [STDOUT] Adding Accesstransformer map: temp.dat
+2013-09-08 12:20:56 [INFO] [STDOUT] Loaded 53 rules from AccessTransformer config file temp.dat
+2013-09-08 12:20:56 [FINE] [ForgeModLoader] Coremod plugin CodeChickenCorePlugin run successfully
+2013-09-08 12:20:56 [FINE] [ForgeModLoader] Running coremod plugin NEICorePlugin
+2013-09-08 12:20:56 [FINE] [ForgeModLoader] Coremod plugin NEICorePlugin run successfully
+2013-09-08 12:20:56 [FINE] [ForgeModLoader] Validating minecraft
+2013-09-08 12:20:56 [FINE] [ForgeModLoader] Minecraft validated, launching...
+2013-09-08 12:20:56 [INFO] [ForgeModLoader] Launching wrapped minecraft
+2013-09-08 12:20:57 [INFO] [STDOUT] Inserted super call into net.minecraft.client.gui.inventory.GuiInventory.updateScreen
+2013-09-08 12:20:57 [INFO] [STDOUT] awv was overriden from NotEnoughItems 1.6.0.6.jar
+2013-09-08 12:20:58 [INFO] [Minecraft-Client] Setting user: Player893
+2013-09-08 12:20:58 [INFO] [Minecraft-Client] (Session ID is null)
+2013-09-08 12:20:59 [INFO] [STDOUT] Generated BlockMobSpawner helper method.
+2013-09-08 12:21:00 [INFO] [Minecraft-Client] LWJGL Version: 2.9.0
+2013-09-08 12:21:01 [INFO] [Minecraft-Client] Reloading ResourceManager: Default
+2013-09-08 12:21:01 [INFO] [STDOUT] 
+2013-09-08 12:21:01 [INFO] [STDOUT] Starting up SoundSystem...
+2013-09-08 12:21:02 [INFO] [MinecraftForge] Attempting early MinecraftForge initialization
+2013-09-08 12:21:02 [INFO] [STDOUT] MinecraftForge v9.10.0.800 Initialized
+2013-09-08 12:21:02 [INFO] [ForgeModLoader] MinecraftForge v9.10.0.800 Initialized
+2013-09-08 12:21:02 [INFO] [STDOUT] Initializing LWJGL OpenAL
+2013-09-08 12:21:02 [INFO] [STDOUT]     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+2013-09-08 12:21:02 [INFO] [STDOUT] Replaced 101 ore recipies
+2013-09-08 12:21:02 [INFO] [STDOUT] OpenAL initialized.
+2013-09-08 12:21:02 [INFO] [MinecraftForge] Completed early MinecraftForge initialization
+2013-09-08 12:21:02 [INFO] [ForgeModLoader] Reading custom logging properties from /Users/BenG/Desktop/forge/mcp/jars/config/logging.properties
+2013-09-08 12:21:02 [OFF] [ForgeModLoader] Logging level for ForgeModLoader logging is set to ALL
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Building injected Mod Containers [cpw.mods.fml.common.FMLDummyContainer, net.minecraftforge.common.ForgeDummyContainer, codechicken.core.asm.CodeChickenCoreModContainer, codechicken.nei.asm.NEIModContainer]
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Attempting to load mods contained in the minecraft jar file and associated classes
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related directory at /Users/BenG/git/BenzoniteMod/Minecraft/bin, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/org/ow2/asm/asm-debug-all/4.1/asm-debug-all-4.1.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/net/minecraft/launchwrapper/1.3/launchwrapper-1.3.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/versions/1.6.2/1.6.2.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/lzma/lzma/0.0.1/lzma-0.0.1.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/codecwav/20101023/codecwav-20101023.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/argo/argo/2.25_fixed/argo-2.25_fixed.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/com/google/guava/guava/14.0/guava-14.0.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/commons-io/commons-io/2.4/commons-io-2.4.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/org/lwjgl/lwjgl/lwjgl/2.9.0/lwjgl-2.9.0.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.0/lwjgl_util-2.9.0.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINER] [ForgeModLoader] Skipping known library file /Users/BenG/Desktop/forge/mcp/jars/mods/CodeChickenCore 0.9.0.2.jar
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a minecraft related file at /Users/BenG/Desktop/forge/mcp/jars/./mods/1.6.2/CodeChickenLib-dev-1.6.2-1.0.0.11.jar, examining for mod candidates
+2013-09-08 12:21:02 [FINER] [ForgeModLoader] Skipping known library file /Users/BenG/Desktop/forge/mcp/jars/mods/NotEnoughItems 1.6.0.6.jar
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Minecraft jar mods loaded successfully
+2013-09-08 12:21:02 [INFO] [ForgeModLoader] Searching /Users/BenG/Desktop/forge/mcp/jars/mods for mods
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a candidate mod directory 1.6.2
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a candidate zip or jar file CodeChickenCore 0.9.0.2.jar
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a candidate zip or jar file NotEnoughItems 1.6.0.6.jar
+2013-09-08 12:21:02 [INFO] [ForgeModLoader] Also searching /Users/BenG/Desktop/forge/mcp/jars/mods/1.6.2 for mods
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Found a candidate zip or jar file CodeChickenLib-dev-1.6.2-1.0.0.11.jar
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Examining directory bin for potential mods
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] No mcmod.info file found in directory bin
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.Biome
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.Cooler
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.Entity
+2013-09-08 12:21:02 [INFO] [STDOUT] 
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.Extras
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.Foods
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.Gen
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.Mobs
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.StructureGen
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.Trees
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.armor
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.chest
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.common
+2013-09-08 12:21:02 [FINE] [ForgeModLoader] Identified an FMLMod type mod MagaBenG.mod.BenzoniteMod.common.BenzoniteMod
+2013-09-08 12:21:02 [FINEST] [BenzoniteMod] Parsed dependency info : [] [] []
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.item
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package MagaBenG.mod.BenzoniteMod.liquid
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package assets
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package assets.benzonitemod
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package assets.benzonitemod.textures
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package assets.benzonitemod.textures.Armor
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package assets.benzonitemod.textures.GUI
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package assets.benzonitemod.textures.blocks
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package assets.benzonitemod.textures.foods
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package assets.benzonitemod.textures.items
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.client
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.client.modloader
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.client.registry
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.asm
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.asm.transformers
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.asm.transformers.deobf
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.discovery
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.discovery.asm
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.event
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.functions
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.launcher
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.modloader
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.network
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.patcher
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.registry
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.toposort
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.common.versioning
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.relauncher
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.repackage
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.repackage.com
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.repackage.com.nothome
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.repackage.com.nothome.delta
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package cpw.mods.fml.server
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package ibxm
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.block
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.block.material
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.audio
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.entity
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.gui
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.gui.achievement
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.gui.inventory
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.gui.mco
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.main
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.mco
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.model
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.multiplayer
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.particle
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.renderer
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.renderer.culling
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.renderer.entity
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.renderer.texture
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.renderer.tileentity
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.resources
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.resources.data
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.settings
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.client.stats
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.command
+2013-09-08 12:21:02 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.crash
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.creativetab
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.dispenser
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.enchantment
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity.ai
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity.ai.attributes
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity.boss
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity.effect
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity.item
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity.monster
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity.passive
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity.player
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.entity.projectile
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.inventory
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.item
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.item.crafting
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.logging
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.nbt
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.network
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.network.packet
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.network.rcon
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.pathfinding
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.potion
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.profiler
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.scoreboard
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.server
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.server.dedicated
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.server.gui
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.server.integrated
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.server.management
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.src
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.stats
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.tileentity
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.util
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.village
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world.biome
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world.chunk
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world.chunk.storage
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world.demo
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world.gen
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world.gen.feature
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world.gen.layer
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world.gen.structure
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraft.world.storage
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.classloading
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.client
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.client.event
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.client.event.sound
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.client.model
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.client.model.obj
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.client.model.techne
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.common
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.common.network
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.common.network.packet
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.event
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.event.brewing
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.event.entity
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.event.entity.item
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.event.entity.living
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.event.entity.minecart
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.event.entity.player
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.event.terraingen
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.event.world
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.fluids
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.oredict
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package net.minecraftforge.transformers
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package paulscode
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package paulscode.sound
+2013-09-08 12:21:03 [FINEST] [ForgeModLoader] Recursing into package paulscode.sound.codecs
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file asm-debug-all-4.1.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container asm-debug-all-4.1.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file launchwrapper-1.3.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container launchwrapper-1.3.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file 1.6.2.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container 1.6.2.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file lzma-0.0.1.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file jopt-simple-4.5.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file codecjorbis-20101023.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file codecwav-20101023.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file libraryjavasound-20101123.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file librarylwjglopenal-20100824.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file soundsystem-20120107.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file argo-2.25_fixed.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container argo-2.25_fixed.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] Examining file bcprov-jdk15on-1.47.jar for potential mods
+2013-09-08 12:21:03 [FINE] [ForgeModLoader] The mod container bcprov-jdk15on-1.47.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file guava-14.0.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container guava-14.0.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file commons-lang3-3.1.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container commons-lang3-3.1.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file commons-io-2.4.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file jutils-1.0.0.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file gson-2.2.2.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container gson-2.2.2.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file jinput-2.0.5.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file lwjgl-2.9.0.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container lwjgl-2.9.0.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file lwjgl_util-2.9.0.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container lwjgl_util-2.9.0.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file CodeChickenLib-dev-1.6.2-1.0.0.11.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container CodeChickenLib-dev-1.6.2-1.0.0.11.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining directory 1.6.2 for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] No mcmod.info file found in directory 1.6.2
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file CodeChickenCore 0.9.0.2.jar for potential mods
+2013-09-08 12:21:04 [FINER] [ForgeModLoader] Located mcmod.info file in file CodeChickenCore 0.9.0.2.jar
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file NotEnoughItems 1.6.0.6.jar for potential mods
+2013-09-08 12:21:04 [FINER] [ForgeModLoader] Located mcmod.info file in file NotEnoughItems 1.6.0.6.jar
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Examining file CodeChickenLib-dev-1.6.2-1.0.0.11.jar for potential mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] The mod container CodeChickenLib-dev-1.6.2-1.0.0.11.jar appears to be missing an mcmod.info file
+2013-09-08 12:21:04 [INFO] [ForgeModLoader] Forge Mod Loader has identified 6 mods to load
+2013-09-08 12:21:04 [FINER] [ForgeModLoader] Received a system property request ''
+2013-09-08 12:21:04 [FINER] [ForgeModLoader] System property request managing the state of 0 mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] After merging, found state information for 0 mods
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Reloading logging properties from /Users/BenG/Desktop/forge/mcp/jars/config/logging.properties
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Reloaded logging properties
+2013-09-08 12:21:04 [FINE] [mcp] Mod Logging channel mcp configured at default level.
+2013-09-08 12:21:04 [INFO] [mcp] Activating mod mcp
+2013-09-08 12:21:04 [FINE] [FML] Mod Logging channel FML configured at default level.
+2013-09-08 12:21:04 [INFO] [FML] Activating mod FML
+2013-09-08 12:21:04 [FINE] [Forge] Mod Logging channel Forge configured at default level.
+2013-09-08 12:21:04 [INFO] [Forge] Activating mod Forge
+2013-09-08 12:21:04 [FINE] [CodeChickenCore] Mod Logging channel CodeChickenCore configured at default level.
+2013-09-08 12:21:04 [INFO] [CodeChickenCore] Activating mod CodeChickenCore
+2013-09-08 12:21:04 [FINE] [NotEnoughItems] Mod Logging channel NotEnoughItems configured at default level.
+2013-09-08 12:21:04 [INFO] [NotEnoughItems] Activating mod NotEnoughItems
+2013-09-08 12:21:04 [FINE] [BenzoniteMod] Enabling mod BenzoniteMod
+2013-09-08 12:21:04 [FINE] [BenzoniteMod] Mod Logging channel BenzoniteMod configured at default level.
+2013-09-08 12:21:04 [INFO] [BenzoniteMod] Activating mod BenzoniteMod
+2013-09-08 12:21:04 [WARNING] [Not Enough Items] Mod Not Enough Items is missing a pack.mcmeta file, things may not work well
+2013-09-08 12:21:04 [WARNING] [BenzoniteModAlpha] Mod BenzoniteModAlpha is missing a pack.mcmeta file, things may not work well
+2013-09-08 12:21:04 [INFO] [Minecraft-Client] Reloading ResourceManager: Default, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:BenzoniteModAlpha
+2013-09-08 12:21:04 [INFO] [STDOUT] 
+2013-09-08 12:21:04 [INFO] [STDOUT] SoundSystem shutting down...
+2013-09-08 12:21:04 [INFO] [STDOUT]     Author: Paul Lamb, www.paulscode.com
+2013-09-08 12:21:04 [INFO] [STDOUT] 
+2013-09-08 12:21:04 [FINER] [ForgeModLoader] Verifying mod requirements are satisfied
+2013-09-08 12:21:04 [INFO] [STDOUT] 
+2013-09-08 12:21:04 [INFO] [STDOUT] Starting up SoundSystem...
+2013-09-08 12:21:04 [FINER] [ForgeModLoader] All mod requirements are satisfied
+2013-09-08 12:21:04 [FINER] [ForgeModLoader] Sorting mods into an ordered list
+2013-09-08 12:21:04 [FINER] [ForgeModLoader] Mod sorting completed successfully
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] Mod sorting data
+2013-09-08 12:21:04 [FINE] [ForgeModLoader] 	BenzoniteMod(BenzoniteModAlpha:2.3.5): bin ()
+2013-09-08 12:21:04 [INFO] [ForgeModLoader] FML has found a non-mod file CodeChickenCore 0.9.0.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+2013-09-08 12:21:04 [INFO] [ForgeModLoader] FML has found a non-mod file NotEnoughItems 1.6.0.6.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+2013-09-08 12:21:04 [INFO] [ForgeModLoader] FML has found a non-mod file CodeChickenLib-dev-1.6.2-1.0.0.11.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+2013-09-08 12:21:04 [FINEST] [mcp] Sending event FMLConstructionEvent to mod mcp
+2013-09-08 12:21:04 [FINEST] [mcp] Sent event FMLConstructionEvent to mod mcp
+2013-09-08 12:21:04 [FINEST] [FML] Sending event FMLConstructionEvent to mod FML
+2013-09-08 12:21:04 [FINEST] [FML] Sent event FMLConstructionEvent to mod FML
+2013-09-08 12:21:04 [FINEST] [Forge] Sending event FMLConstructionEvent to mod Forge
+2013-09-08 12:21:04 [INFO] [ForgeModLoader] Registering Forge Packet Handler
+2013-09-08 12:21:05 [FINEST] [ForgeModLoader] Testing mod Forge to verify it accepts its own version in a remote connection
+2013-09-08 12:21:05 [FINEST] [ForgeModLoader] The mod Forge accepts its own version (9.10.0.800)
+2013-09-08 12:21:05 [INFO] [ForgeModLoader] Succeeded registering Forge Packet Handler
+2013-09-08 12:21:05 [FINEST] [Forge] Sent event FMLConstructionEvent to mod Forge
+2013-09-08 12:21:05 [FINEST] [CodeChickenCore] Sending event FMLConstructionEvent to mod CodeChickenCore
+2013-09-08 12:21:05 [FINEST] [CodeChickenCore] Sent event FMLConstructionEvent to mod CodeChickenCore
+2013-09-08 12:21:05 [FINEST] [NotEnoughItems] Sending event FMLConstructionEvent to mod NotEnoughItems
+2013-09-08 12:21:05 [FINEST] [NotEnoughItems] Sent event FMLConstructionEvent to mod NotEnoughItems
+2013-09-08 12:21:05 [FINEST] [BenzoniteMod] Sending event FMLConstructionEvent to mod BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzonitePickaxe(15256) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteAxe(15257) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteSpade(15258) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteSword(15259) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteHoe(15260) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzonitePickaxe(15261) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteAxe(15262) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteSpade(15263) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteSword(15264) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteHoe(15265) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzonitePickaxe(15271) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteAxe(15267) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteSpade(15268) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteSword(15269) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteHoe(15270) owned by BenzoniteMod
+2013-09-08 12:21:05 [INFO] [STDOUT] Initializing LWJGL OpenAL
+2013-09-08 12:21:05 [INFO] [STDOUT] CONFLICT @ 15015 item slot already occupied by MagaBenG.mod.BenzoniteMod.item.ItemRedBenzonitePickaxe@2674f9fb while adding MagaBenG.mod.BenzoniteMod.item.ItemRedBenzonitePickaxe@49c7e176
+2013-09-08 12:21:05 [INFO] [STDOUT]     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+2013-09-08 12:21:05 [INFO] [fml.ItemTracker] The mod BenzoniteMod is overwriting existing item at 15271 (MagaBenG.mod.BenzoniteMod.item.ItemRedBenzonitePickaxe from BenzoniteMod) with MagaBenG.mod.BenzoniteMod.item.ItemRedBenzonitePickaxe
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzonitePickaxe(15271) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteAxe(15272) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteSpade(15273) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteSword(15274) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteHoe(15275) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.LifeSword(15286) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15276) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15277) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15278) owned by BenzoniteMod
+2013-09-08 12:21:05 [INFO] [STDOUT] OpenAL initialized.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15279) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15280) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15281) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15282) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15283) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.Foods.ChocloateMilk(15284) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemHammer(15287) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemSpadeL(15288) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemAxeL(15289) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemHoeL(15290) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.BenzoniteStaff(15319) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.Gun(15294) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.RedArmor(15295) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.RedArmor(15296) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.RedArmor(15297) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.RedArmor(15298) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.BlueArmor(15299) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.BlueArmor(15300) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.BlueArmor(15301) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.BlueArmor(15302) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.GreenArmor(15303) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.GreenArmor(15304) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.GreenArmor(15305) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.GreenArmor(15306) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.OrangeArmor(15307) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.OrangeArmor(15308) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.OrangeArmor(15309) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.OrangeArmor(15310) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15311) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15312) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15313) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15314) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15315) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15316) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15317) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.EnderStaff(15318) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15293) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.FireStaff(15320) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15321) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15322) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15323) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15324) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15325) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15326) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15327) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemRedBenzoniteIngot(15328) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemBenzoniteBow(15329) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemBenzoniteBow(15330) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemBenzoniteBow(15331) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.ItemBenzoniteBow(15332) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.GodBow(15333) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.Striker(15334) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.Telaport(15335) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.item.Snow(15336) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.FlyArmor(15337) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.FlyArmor(15338) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.FlyArmor(15339) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.FlyArmor(15340) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.FireArmor(15341) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.FireArmor(15342) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.FireArmor(15343) owned by BenzoniteMod
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item MagaBenG.mod.BenzoniteMod.armor.FireArmor(15344) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3000) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3001) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3002) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3003) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3004) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3005) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3006) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3007) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3008) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3009) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3010) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3011) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3012) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3013) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3018) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3014) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3015) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3016) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3017) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3025) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3026) owned by BenzoniteMod
+2013-09-08 12:21:05 [WARNING] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to register a block whilst it it being constructed. This is bad modding practice - please use a proper mod lifecycle event.
+2013-09-08 12:21:05 [FINE] [fml.ItemTracker] Adding item net.minecraft.item.ItemBlock(3027) owned by BenzoniteMod
+2013-09-08 12:21:05 [SEVERE] [ForgeModLoader] The mod FMLMod:BenzoniteMod{2.3.5} is attempting to redefine the item at id 3027 with a non-unique name (BenzoniteMod.BenzoniteCoolder)
+2013-09-08 12:21:05 [SEVERE] [ForgeModLoader] Caught an exception during block registration
+cpw.mods.fml.common.LoaderException
+	at cpw.mods.fml.common.registry.ItemData.setName(ItemData.java:171)
+	at cpw.mods.fml.common.registry.GameData.setName(GameData.java:280)
+	at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:150)
+	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:229)
+	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:194)
+	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:170)
+	at MagaBenG.mod.BenzoniteMod.common.BenzoniteMod.<init>(BenzoniteMod.java:864)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:357)
+	at java.lang.Class.newInstance(Class.java:310)
+	at cpw.mods.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:181)
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:538)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:199)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:103)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:537)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:184)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:469)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:796)
+	at net.minecraft.client.main.Main.main(Main.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:57)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:18)
+2013-09-08 12:21:05 [FINEST] [BenzoniteMod] Sent event FMLConstructionEvent to mod BenzoniteMod
+2013-09-08 12:21:05 [FINE] [ForgeModLoader] Mod signature data
+2013-09-08 12:21:05 [FINE] [ForgeModLoader] 	mcp(Minecraft Coder Pack:8.04): minecraft.jar (NO VALID CERTIFICATE FOUND)
+2013-09-08 12:21:05 [FINE] [ForgeModLoader] 	FML(Forge Mod Loader:6.2.35.800): coremods (NO VALID CERTIFICATE FOUND)
+2013-09-08 12:21:05 [FINE] [ForgeModLoader] 	Forge(Minecraft Forge:9.10.0.800): coremods (NO VALID CERTIFICATE FOUND)
+2013-09-08 12:21:05 [FINE] [ForgeModLoader] 	CodeChickenCore(CodeChicken Core:0.9.0.2): coremods (NO VALID CERTIFICATE FOUND)
+2013-09-08 12:21:05 [FINE] [ForgeModLoader] 	NotEnoughItems(Not Enough Items:1.6.0.6): NotEnoughItems 1.6.0.6.jar (NO VALID CERTIFICATE FOUND)
+2013-09-08 12:21:05 [FINE] [ForgeModLoader] 	BenzoniteMod(BenzoniteModAlpha:2.3.5): bin (NO VALID CERTIFICATE FOUND)
+2013-09-08 12:21:05 [SEVERE] [ForgeModLoader] Fatal errors were detected during the transition from CONSTRUCTING to PREINITIALIZATION. Loading cannot continue
+2013-09-08 12:21:05 [SEVERE] [ForgeModLoader] 
+	mcp{8.04} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed
+	FML{6.2.35.800} [Forge Mod Loader] (coremods) Unloaded->Constructed
+	Forge{9.10.0.800} [Minecraft Forge] (coremods) Unloaded->Constructed
+	CodeChickenCore{0.9.0.2} [CodeChicken Core] (coremods) Unloaded->Constructed
+	NotEnoughItems{1.6.0.6} [Not Enough Items] (NotEnoughItems 1.6.0.6.jar) Unloaded->Constructed
+	BenzoniteMod{2.3.5} [BenzoniteModAlpha] (bin) Unloaded->Errored
+2013-09-08 12:21:05 [SEVERE] [ForgeModLoader] The following problems were captured during this phase
+2013-09-08 12:21:05 [SEVERE] [ForgeModLoader] Caught exception from BenzoniteMod
+cpw.mods.fml.common.LoaderException: cpw.mods.fml.common.LoaderException
+	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:234)
+	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:194)
+	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:170)
+	at MagaBenG.mod.BenzoniteMod.common.BenzoniteMod.<init>(BenzoniteMod.java:864)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:357)
+	at java.lang.Class.newInstance(Class.java:310)
+	at cpw.mods.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:181)
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:538)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:199)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:103)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:537)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:184)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:469)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:796)
+	at net.minecraft.client.main.Main.main(Main.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:57)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:18)
+Caused by: cpw.mods.fml.common.LoaderException
+	at cpw.mods.fml.common.registry.ItemData.setName(ItemData.java:171)
+	at cpw.mods.fml.common.registry.GameData.setName(GameData.java:280)
+	at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:150)
+	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:229)
+	... 43 more
+2013-09-08 12:21:05 [INFO] [STDOUT] ---- Minecraft Crash Report ----
+2013-09-08 12:21:05 [INFO] [STDOUT] // Would you like a cupcake?
+2013-09-08 12:21:05 [INFO] [STDOUT] 
+2013-09-08 12:21:05 [INFO] [STDOUT] Time: 9/8/13 12:21 PM
+2013-09-08 12:21:05 [INFO] [STDOUT] Description: There was a severe problem during mod loading that has caused the game to fail
+2013-09-08 12:21:05 [INFO] [STDOUT] 
+2013-09-08 12:21:05 [INFO] [STDOUT] cpw.mods.fml.common.LoaderException: cpw.mods.fml.common.LoaderException
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:234)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:194)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:170)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at MagaBenG.mod.BenzoniteMod.common.BenzoniteMod.<init>(BenzoniteMod.java:864)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at java.lang.Class.newInstance0(Class.java:357)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at java.lang.Class.newInstance(Class.java:310)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:181)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:538)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at java.lang.reflect.Method.invoke(Method.java:597)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:199)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:177)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at java.lang.reflect.Method.invoke(Method.java:597)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:103)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.Loader.loadMods(Loader.java:537)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:184)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at net.minecraft.client.Minecraft.startGame(Minecraft.java:469)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:796)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at net.minecraft.client.main.Main.main(Main.java:93)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at java.lang.reflect.Method.invoke(Method.java:597)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:57)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at net.minecraft.launchwrapper.Launch.main(Launch.java:18)
+2013-09-08 12:21:05 [INFO] [STDOUT] Caused by: cpw.mods.fml.common.LoaderException
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.registry.ItemData.setName(ItemData.java:171)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.registry.GameData.setName(GameData.java:280)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:150)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	at cpw.mods.fml.common.registry.GameRegistry.registerBlock(GameRegistry.java:229)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	... 43 more
+2013-09-08 12:21:05 [INFO] [STDOUT] 
+2013-09-08 12:21:05 [INFO] [STDOUT] 
+2013-09-08 12:21:05 [INFO] [STDOUT] A detailed walkthrough of the error, its code path and all known details is as follows:
+2013-09-08 12:21:05 [INFO] [STDOUT] ---------------------------------------------------------------------------------------
+2013-09-08 12:21:05 [INFO] [STDOUT] 
+2013-09-08 12:21:05 [INFO] [STDOUT] -- System Details --
+2013-09-08 12:21:05 [INFO] [STDOUT] Details:
+2013-09-08 12:21:05 [INFO] [STDOUT] 	Minecraft Version: 1.6.2
+2013-09-08 12:21:05 [INFO] [STDOUT] 	Operating System: Mac OS X (x86_64) version 10.8.4
+2013-09-08 12:21:05 [INFO] [STDOUT] 	Java Version: 1.6.0_51, Apple Inc.
+2013-09-08 12:21:05 [INFO] [STDOUT] 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Apple Inc.
+2013-09-08 12:21:05 [INFO] [STDOUT] 	Memory: 942616288 bytes (898 MB) / 1065025536 bytes (1015 MB) up to 1065025536 bytes (1015 MB)
+2013-09-08 12:21:05 [INFO] [STDOUT] 	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+2013-09-08 12:21:05 [INFO] [STDOUT] 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+2013-09-08 12:21:05 [INFO] [STDOUT] 	Suspicious classes: FML and Forge are installed
+2013-09-08 12:21:05 [INFO] [STDOUT] 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+2013-09-08 12:21:05 [INFO] [STDOUT] 	FML: MCP v8.04 FML v6.2.35.800 Minecraft Forge 9.10.0.800 6 mods loaded, 6 mods active
+2013-09-08 12:21:05 [INFO] [STDOUT] 	mcp{8.04} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed
+2013-09-08 12:21:05 [INFO] [STDOUT] 	FML{6.2.35.800} [Forge Mod Loader] (coremods) Unloaded->Constructed
+2013-09-08 12:21:05 [INFO] [STDOUT] 	Forge{9.10.0.800} [Minecraft Forge] (coremods) Unloaded->Constructed
+2013-09-08 12:21:05 [INFO] [STDOUT] 	CodeChickenCore{0.9.0.2} [CodeChicken Core] (coremods) Unloaded->Constructed
+2013-09-08 12:21:05 [INFO] [STDOUT] 	NotEnoughItems{1.6.0.6} [Not Enough Items] (NotEnoughItems 1.6.0.6.jar) Unloaded->Constructed
+2013-09-08 12:21:05 [INFO] [STDOUT] 	BenzoniteMod{2.3.5} [BenzoniteModAlpha] (bin) Unloaded->Errored
+2013-09-08 12:21:05 [INFO] [STDOUT] #@!@# Game crashed! Crash report saved to: #@!@# /Users/BenG/Desktop/forge/mcp/jars/./crash-reports/crash-2013-09-08_12.21.05-client.txt

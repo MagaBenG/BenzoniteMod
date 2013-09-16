@@ -1,0 +1,20 @@
+--- ../src-base/minecraft/net/minecraft/util/StringTranslate.java
++++ ../src-work/minecraft/net/minecraft/util/StringTranslate.java
+@@ -3,6 +3,8 @@
+ import com.google.common.base.Splitter;
+ import com.google.common.collect.Iterables;
+ import com.google.common.collect.Maps;
++
++import cpw.mods.fml.common.registry.LanguageRegistry;
+ import cpw.mods.fml.relauncher.Side;
+ import cpw.mods.fml.relauncher.SideOnly;
+ import java.io.IOException;
+@@ -45,7 +47,7 @@
+                 }
+             }
+         }
+-        catch (IOException ioexception)
++        catch (Exception ioexception)
+         {
+             ;
+         }

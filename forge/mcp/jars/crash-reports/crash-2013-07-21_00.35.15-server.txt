@@ -1,0 +1,77 @@
+---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 7/21/13 12:35 AM
+Description: Ticking memory connection
+
+java.lang.NullPointerException
+	at net.minecraft.world.World.spawnEntityInWorld(World.java:1558)
+	at net.minecraft.entity.player.EntityPlayer.joinEntityItemWithWorld(EntityPlayer.java:878)
+	at net.minecraftforge.common.ForgeHooks.onPlayerTossEvent(ForgeHooks.java:395)
+	at net.minecraft.entity.player.EntityPlayer.dropPlayerItem(EntityPlayer.java:816)
+	at net.minecraft.inventory.Container.onContainerClosed(Container.java:532)
+	at net.minecraft.inventory.ContainerPlayer.onContainerClosed(ContainerPlayer.java:69)
+	at net.minecraft.entity.player.EntityPlayerMP.closeContainer(EntityPlayerMP.java:832)
+	at net.minecraft.network.NetServerHandler.handleCloseWindow(NetServerHandler.java:910)
+	at net.minecraft.network.packet.Packet101CloseWindow.processPacket(Packet101CloseWindow.java:23)
+	at net.minecraft.network.MemoryConnection.processReadPackets(MemoryConnection.java:89)
+	at net.minecraft.network.NetServerHandler.networkTick(NetServerHandler.java:141)
+	at net.minecraft.network.NetworkListenThread.networkTick(NetworkListenThread.java:54)
+	at net.minecraft.server.integrated.IntegratedServerListenThread.networkTick(IntegratedServerListenThread.java:109)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:697)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:593)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:134)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:487)
+	at net.minecraft.server.ThreadMinecraftServer.run(ThreadMinecraftServer.java:16)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.world.World.spawnEntityInWorld(World.java:1558)
+	at net.minecraft.entity.player.EntityPlayer.joinEntityItemWithWorld(EntityPlayer.java:878)
+	at net.minecraftforge.common.ForgeHooks.onPlayerTossEvent(ForgeHooks.java:395)
+	at net.minecraft.entity.player.EntityPlayer.dropPlayerItem(EntityPlayer.java:816)
+	at net.minecraft.inventory.Container.onContainerClosed(Container.java:532)
+	at net.minecraft.inventory.ContainerPlayer.onContainerClosed(ContainerPlayer.java:69)
+	at net.minecraft.entity.player.EntityPlayerMP.closeContainer(EntityPlayerMP.java:832)
+	at net.minecraft.network.NetServerHandler.handleCloseWindow(NetServerHandler.java:910)
+	at net.minecraft.network.packet.Packet101CloseWindow.processPacket(Packet101CloseWindow.java:23)
+	at net.minecraft.network.MemoryConnection.processReadPackets(MemoryConnection.java:89)
+	at net.minecraft.network.NetServerHandler.networkTick(NetServerHandler.java:141)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetServerHandler@6f90cd6e
+Stacktrace:
+	at net.minecraft.network.NetworkListenThread.networkTick(NetworkListenThread.java:54)
+	at net.minecraft.server.integrated.IntegratedServerListenThread.networkTick(IntegratedServerListenThread.java:109)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:697)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:593)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:134)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:487)
+	at net.minecraft.server.ThreadMinecraftServer.run(ThreadMinecraftServer.java:16)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.6.2
+	Operating System: Mac OS X (x86_64) version 10.8.4
+	Java Version: 1.6.0_51, Apple Inc.
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Apple Inc.
+	Memory: 638569152 bytes (608 MB) / 1065025536 bytes (1015 MB) up to 1065025536 bytes (1015 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 501 (28056 bytes; 0 MB) allocated, 461 (25816 bytes; 0 MB) used
+	Suspicious classes: FML and Forge are installed
+	IntCache: cache: 1, tcache: 0, allocated: 1, tallocated: 63
+	FML: MCP v8.04 FML v6.2.35.800 Minecraft Forge 9.10.0.800 4 mods loaded, 4 mods active
+	mcp{8.04} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	FML{6.2.35.800} [Forge Mod Loader] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	Forge{9.10.0.800} [Minecraft Forge] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	BenzoniteMod{2.3.3} [BenzoniteModAlpha] (bin) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 124 (6944 bytes; 0 MB) allocated, 80 (4480 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player292'/7102, l='HardCore Test', x=-977.91, y=56.00, z=-9.87]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

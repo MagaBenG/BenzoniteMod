@@ -1,0 +1,119 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 7/23/13 1:21 PM
+Description: Initializing game
+
+java.lang.ExceptionInInitializerError
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:477)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:199)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:103)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:537)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:184)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:469)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:796)
+	at net.minecraft.client.main.Main.main(Main.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:57)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:18)
+Caused by: java.lang.NullPointerException
+	at net.minecraft.item.ItemStack.<init>(ItemStack.java:76)
+	at net.minecraft.stats.Achievement.<init>(Achievement.java:52)
+	at MagaBenG.mod.BenzoniteMod.common.BenzoniteMod.<clinit>(BenzoniteMod.java:311)
+	... 35 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:477)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:199)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:103)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:537)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:184)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:469)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:796)
+	at net.minecraft.client.main.Main.main(Main.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:57)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:18)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.6.2
+	Operating System: Mac OS X (x86_64) version 10.8.4
+	Java Version: 1.6.0_51, Apple Inc.
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Apple Inc.
+	Memory: 978604536 bytes (933 MB) / 1065025536 bytes (1015 MB) up to 1065025536 bytes (1015 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Suspicious classes: FML and Forge are installed
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v8.04 FML v6.2.35.800 Minecraft Forge 9.10.0.800 4 mods loaded, 4 mods active
+	mcp{8.04} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed
+	FML{6.2.35.800} [Forge Mod Loader] (coremods) Unloaded->Constructed
+	Forge{9.10.0.800} [Minecraft Forge] (coremods) Unloaded->Constructed
+	BenzoniteMod{2.3.3} [BenzoniteModAlpha] (bin) Unloaded
+	Launched Version: 1.6
+	LWJGL: 2.9.0
+	OpenGL: Intel HD Graphics 3000 OpenGL Engine GL version 2.1 INTEL-8.12.47, Intel Inc.
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Pack: Default
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: ~~ERROR~~ NullPointerException: null

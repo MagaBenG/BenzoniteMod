@@ -1,0 +1,77 @@
+/Users/BenG/Desktop/forge/mcp/src/minecraft/cpw/mods/fml/common/registry/GameRegistry.java:60: warning: [deprecation] cpw.mods.fml.common.Mod.Block in cpw.mods.fml.common.Mod has been deprecated
+import cpw.mods.fml.common.Mod.Block;
+                              ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/cpw/mods/fml/common/registry/GameRegistry.java:113: warning: [deprecation] cpw.mods.fml.common.Mod.Block in cpw.mods.fml.common.Mod has been deprecated
+    public static Object buildBlock(ModContainer container, Class<?> type, Block annotation) throws Exception
+                                                                           ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/common/BenzoniteMod.java:105: warning: [deprecation] cpw.mods.fml.common.Mod.Init in cpw.mods.fml.common.Mod has been deprecated
+import cpw.mods.fml.common.Mod.Init;
+                              ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/common/ClientProxy.java:5: warning: [deprecation] cpw.mods.fml.common.Mod.Init in cpw.mods.fml.common.Mod has been deprecated
+import cpw.mods.fml.common.Mod.Init;
+                              ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/common/BenzoniteMod.java:300: warning: [deprecation] cpw.mods.fml.common.Mod.Init in cpw.mods.fml.common.Mod has been deprecated
+    @Init
+     ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/common/ClientProxy.java:10: warning: [deprecation] cpw.mods.fml.common.Mod.Init in cpw.mods.fml.common.Mod has been deprecated
+    @Init
+     ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/net/minecraft/util/ChatMessageComponent.java:260: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+cast to java.lang.Object for a varargs call
+cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+                stringbuilder.append(StatCollector.translateToLocalFormatted(this.field_111090_h, astring));
+                                                                                                  ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/net/minecraft/item/ItemPotion.java:394: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/net/minecraft/item/ItemEnchantedBook.java:23: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/cpw/mods/fml/relauncher/FMLCorePlugin.java:21: warning: [deprecation] getLibraryRequestClass() in cpw.mods.fml.relauncher.IFMLLoadingPlugin has been deprecated
+    public String[] getLibraryRequestClass()
+                    ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/item/GodBow.java:15: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/item/ItemAxeL.java:29: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/item/ItemHammer.java:28: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/item/ItemHoeL.java:29: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/item/ItemSpadeL.java:28: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/item/LifeSword.java:29: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/item/Snow.java:33: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/item/Striker.java:56: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/MagaBenG/mod/BenzoniteMod/item/Telaport.java:32: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/net/minecraft/item/ItemAppleGold.java:21: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/net/minecraft/item/ItemEditableBook.java:91: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/net/minecraft/item/ItemExpBottle.java:19: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/net/minecraft/item/ItemSimpleFoiled.java:14: warning: [deprecation] hasEffect(net.minecraft.item.ItemStack) in net.minecraft.item.Item has been deprecated
+    public boolean hasEffect(ItemStack par1ItemStack)
+                   ^
+/Users/BenG/Desktop/forge/mcp/src/minecraft/net/minecraftforge/classloading/FMLForgePlugin.java:12: warning: [deprecation] getLibraryRequestClass() in cpw.mods.fml.relauncher.IFMLLoadingPlugin has been deprecated
+    public String[] getLibraryRequestClass()
+                    ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+24 warnings
