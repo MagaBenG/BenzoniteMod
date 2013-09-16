@@ -1319,8 +1319,6 @@ public static Block BenzoniteCraftingTable;
         GameRegistry.addSmelting(BenzoniteMod.GreenOre.blockID, new ItemStack(this.GreenIngot), 5.0F);
         GameRegistry.addSmelting(BenzoniteMod.OrangeOre.blockID, new ItemStack(this.OrangeIngot), 5.0F);
         
-        GameRegistry.registerTileEntity(TileEntityTutBox.class, "tileEntityTutBox");
-        
         {
         	 
         }
