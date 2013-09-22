@@ -287,6 +287,8 @@ public class BenzoniteMod
     public static Block TallDoor;
     
     public static Block TUTBlock;
+    
+    
        
 public static Block BenzoniteCraftingTable;
     
